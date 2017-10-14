@@ -130,35 +130,51 @@ em{
   margin: 0 auto;
 }
 
+@media (max-width: 1000px) {
+    .container {
+        width: 80vw;
+    }
+
+    .preview{
+        width: 45%;
+        margin-left: 5%;
+    }
+}
+
 .section-title{
-  width: 100%;
+    width: 100%;
+    font-family: Puritan;
+}
+
+.section-subtitle{
+    font-family: Muli;
 }
 
 .preview{
-  width: 280px;
-  height: 200px;
-  margin: 15px;
-  float: left;
-  background: gray;
+    width: 280px;
+    height: 200px;
+    margin: 15px;
+    float: left;
+    background: gray;
 }
 
 .preview-layover{
-  text-align: center;
-  width: 280px;
-  height: 185px;
-  line-height: 185px;
-  color: green;
-  z-index: 10000;
+    text-align: center;
+    width: 280px;
+    height: 185px;
+    line-height: 185px;
+    color: green;
+    z-index: 10000;
 }
 
 .preview-layover:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .left {
-  margin-left: 0px;
+    margin-left: 0px;
 }
 
 .right{
-  margin-right: 0px;
+    margin-right: 0px;
 }
