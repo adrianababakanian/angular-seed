@@ -31,9 +31,22 @@
 
 /*HOME PAGE STYLING*/
 
+.logo-wrapper{
+    width: 100%;
+    height: 80px;
+    margin: 50px 0 50px 0;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    background-color: pink;
+    margin: 0 auto;
+}
+
 .terminal{
-    width: 360px;
-    height: 540px;
+    width: 320px;
+    height: 480px;
     background: white;
     margin: 0 auto;
     border-radius: 5px;
@@ -42,21 +55,48 @@
 
 .terminal-header{
     width: 100%;
-    height: 50px;
+    height: 40px;
     background-color: #F2F1F3;
     border-radius: 5px 5px 0 0;
 }
 
+.terminal-text{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+em{
+    font-family: Muli;
+    font-weight: 600;
+}
+
+.terminal-title{
+    font-family: Puritan;
+    font-size: 26px;
+}
+
+.terminal-main{
+    font-family: Muli;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.terminal-sub{
+    font-family: Muli;
+    font-size: 14px;
+}
+
 .circle-wrap{
     margin-left: 20px;
-    height: 50px;
+    height: 40px;
     width: 90px;
 }
 
 .circle{
-    width: 20px;
-    height: 20px;
-    margin: 15px 5px 15px 5px;
+    width: 15px;
+    height: 15px;
+    margin: 12.5px 5px 12.5px 5px;
     border-radius: 20px;
     background: pink;
     float: left;
