@@ -328,7 +328,7 @@ em{
     cursor: pointer;
     position: absolute;
     margin-top: 5vh;
-    margin-left: 72vw;
+    margin-left: 75vw;
     font-family: Nunito;
     line-height: 40px;
     text-align: center;
@@ -367,6 +367,12 @@ em{
         width: 45%;
         margin-left: 5%;
     }
+
+    .half-image {
+      margin: 2vh 2vw;
+      width: 46vw;
+      height: 200px;
+    }
 }
 
 .section-title{
@@ -378,6 +384,7 @@ em{
 .section-subtitle{
     font-family: Muli;
     margin: 15px;
+    font-style: italic;
 }
 
 .preview{
@@ -415,6 +422,9 @@ em{
 }
 
 
+
+
+
 /*ABOUT PAGE STYLING*/
 
 .about-elem {
@@ -431,4 +441,65 @@ em{
 
 .about-text {
 
+}
+
+
+
+
+
+
+/*CONTENT PAGE STYLING*/
+
+
+.image-wrap {
+    width: 100%;
+}
+
+.full-image {
+    width: 900px;
+    height: 600px;
+    margin: 15px;
+    background-color: gray;
+    float: left;
+
+}
+
+.half-image {
+    width: 435px;
+    height: 300px;
+    background-color: gray;
+    float: left;
+    margin: 15px;
+}
+
+.third-image {
+    width: 280px;
+    height: 200px;
+    margin: 15px;
+    float: left;
+    background-color: gray;
+}
+
+.content-text {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    float: left;
+}
+
+
+@media (max-width: 1000px) {
+  .half-image {
+      margin: 1vh 1vw;
+      width: 37vw;
+      height: 300px;
+  }
+  .third-image {
+      margin: 1vw 1vh;
+      width: 24vw;
+      height: 150px;
+  }
+  .full-image {
+      width: 100%;
+  }
 }
