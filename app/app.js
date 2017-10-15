@@ -4,7 +4,9 @@
 angular.module('myApp', [
   'ngRoute',
   // 'ngAnimate',
-  'myApp.view1',
+  'myApp.design',
+  'myApp.code',
+  'myApp.prototyping',
   'myApp.home',
   'myApp.page1',
   'myApp.about',
