@@ -10,5 +10,4 @@ angular.module('myApp.page1', ['ngRoute'])
 }])
 
 .controller('Page1Ctrl', [function() {
-
 }]);
