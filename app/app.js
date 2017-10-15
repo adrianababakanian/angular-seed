@@ -5,7 +5,7 @@ angular.module('myApp', [
   'ngRoute',
   // 'ngAnimate',
   'myApp.view1',
-  'myApp.view2',
+  'myApp.home',
   'myApp.page1',
   'myApp.about',
   'myApp.version',
@@ -13,5 +13,5 @@ angular.module('myApp', [
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
-  $routeProvider.otherwise({redirectTo: '/view2'});
+  $routeProvider.otherwise({redirectTo: '/home'});
 }]);
