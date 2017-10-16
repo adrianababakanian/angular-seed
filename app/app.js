@@ -9,6 +9,8 @@ angular.module('myApp', [
   'myApp.prototyping',
   'myApp.home',
   'myApp.page1',
+  'myApp.stubhub',
+  'myApp.personalsite',
   'myApp.about',
   'myApp.version',
 ]).
