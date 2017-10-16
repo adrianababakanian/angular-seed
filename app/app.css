@@ -421,6 +421,18 @@ em{
     to {transform:rotate(360deg);}
 }
 
+@keyframes boop {
+    0% {
+        transform:translateX(0px);
+    }
+    50% {
+        transform:translateX(-5px);
+    }
+    100% {
+        transform:translateX(0px);
+    }
+}
+
 .close {
     width: 44px;
     height: 44px;
@@ -428,7 +440,7 @@ em{
     cursor: pointer;
     position: absolute;
     margin-top: 5vh;
-    margin-left: 75vw;
+    right: 5vw;
     font-family: Nunito;
     line-height: 40px;
     text-align: center;
@@ -437,8 +449,44 @@ em{
     z-index: 2;
 }
 
+.back-wrap {
+    width: 100%;
+    height: 44px;
+}
+
+.back {
+    width: 44px;
+    height: 44px;
+    border-radius: 44px;
+    cursor: pointer;
+    position: absolute;
+    font-family: Nunito;
+    line-height: 40px;
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    z-index: 2;
+    float: left;
+    right: 5vw;
+    top: -1px;
+}
+
+
+.nav-wrap {
+    position: relative;
+}
+
+.nav {
+  padding: 5px;
+  float: left;
+}
+
 .close:hover {
     animation: spin .8s;
+}
+
+.back:hover {
+    animation: boop .5s;
 }
 
 
@@ -488,7 +536,7 @@ em{
     font-family: Muli;
     margin: 15px 0;
     font-weight: 100;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .preview{
