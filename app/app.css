@@ -46,6 +46,7 @@
 .page {
     position: absolute;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 /* page ------------------------ */
@@ -89,6 +90,8 @@
 }
 
 .body {
+  background-color: linear-gradient(to left, transparent 0%,#fff 50%,transparent 100%);
+  background: -webkit-linear-gradient(-60deg, rgba(204, 178, 213, 0.9), rgba(189, 104, 170, 0.7), rgba(240, 166, 178, 1) 70%);
 
 }
 
@@ -121,7 +124,9 @@ a:active {
   background: -webkit-linear-gradient(-60deg, rgba(204, 178, 213, 0.9), rgba(189, 104, 170, 0.7), rgba(240, 166, 178, 1) 70%);
   height: 100vh;
   width: 100vw;
+  margin-top: -90px;
   color: #303030;
+  padding-top: 90px;
 }
 
 
@@ -131,8 +136,10 @@ img {
     width: 100%;
     margin: 0 auto;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+
+    left: 50%;
+
+    transform: translateX(-50%);
 }
 
 
@@ -279,6 +286,7 @@ em{
     font-family: Muli;
     font-size: 14px;
     margin-top: 5vh;
+    z-index: 2;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -334,7 +342,6 @@ em{
 .close {
     width: 44px;
     height: 44px;
-    background-color: white;
     border-radius: 44px;
     cursor: pointer;
     position: absolute;
@@ -344,6 +351,8 @@ em{
     line-height: 40px;
     text-align: center;
     font-size: 38px;
+    color: white;
+    z-index: 2;
 }
 
 .close:hover {
@@ -389,23 +398,26 @@ em{
 .section-title{
     width: 100%;
     font-family: Puritan;
+    font-size: 24px;
     margin: 15px 0;
 }
 
 .section-subtitle{
     font-family: Muli;
     margin: 15px 0;
-    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 80px;
 }
 
 .preview{
     width: 50%;
-    height: 300px;
+    height: 330px;
     white-space: nowrap;
     overflow: hidden;
     float: left;
     background: gray;
     position: relative;
+    text-transform: uppercase;
 }
 
 .preview-layover{
@@ -414,11 +426,14 @@ em{
     height: 100%;
     line-height: 300px;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     opacity: 0;
     cursor: pointer;
     margin-top: 0;
     position: absolute;
+    font-family: Puritan;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .preview:hover .preview-layover{
