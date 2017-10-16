@@ -415,7 +415,7 @@ em{
     white-space: nowrap;
     overflow: hidden;
     float: left;
-    background: gray;
+    background: white;
     position: relative;
     text-transform: uppercase;
 }
